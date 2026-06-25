@@ -90,4 +90,26 @@ Additional techniques:
 - Adam Optimizer
 - Binary Cross Entropy Loss
 
+## Results
 
+| Model | Accuracy |
+|--------|----------|
+| Count Vectorizer + Random Forest | 88.78% |
+| TF-IDF + Random Forest | 90.64% |
+| Tuned Random Forest | 93.47% |
+| TF-IDF + Logistic Regression | 95.68% |
+| LSTM | 96.98% |
+| BiLSTM | 96.89% |
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- PyTorch
+- Matplotlib
+- NLTK
+
+## Conclusion
+
+The project compares traditional machine learning methods with deep learning approaches for fake news detection. Results demonstrate the effectiveness of text preprocessing, feature engineering, and sequence modeling techniques in identifying misleading news articles.
